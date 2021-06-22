@@ -1,5 +1,20 @@
 {
   "name": "eslint-config-beaty-vue",
+  "keywords": [
+    "eslintconfig",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "eslint",
+    "code style",
+    "vue",
+    "prettier",
+    "eslint",
+    "nuxt",
+    "import"
+  ],
   "version": "1.0.0",
   "scripts": {
   },
@@ -8,7 +23,7 @@
     "url": "git+https://github.com/vivalaz/eslint-config-beaty-vue.git"
   },
   "author": "Vitaly Grinevich @vivalaz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vivalaz/eslint-config-beaty-vue/issues"
   },
