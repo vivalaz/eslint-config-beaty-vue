@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-beaty-vue",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivalaz/eslint-config-beaty-vue.git"
+  },
+  "author": "Vitaly Grinevich @vivalaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivalaz/eslint-config-beaty-vue/issues"
+  },
+  "homepage": "https://github.com/vivalaz/eslint-config-beaty-vue#readme",
+  "dependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "vue-eslint-parser": "^7.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
