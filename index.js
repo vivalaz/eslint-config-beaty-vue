@@ -34,7 +34,8 @@ module.exports = {
 		"max-len": "error",
 		"multiline-ternary": "error",
 		"no-duplicate-imports": "error",
-		"padding-line-between-statements": "error"
+		"padding-line-between-statements": "error",
+		"quotes": ["error", "single", { "allowTemplateLiterals": true }]
 	},
 	parserOptions: {
 		parser: "babel-eslint",
