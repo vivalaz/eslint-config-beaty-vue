@@ -33,7 +33,8 @@ module.exports = {
 		indent: ["error", "tab"],
 		"max-len": "error",
 		"multiline-ternary": "error",
-		"no-duplicate-imports": "error"
+		"no-duplicate-imports": "error",
+		"padding-line-between-statements": "error"
 	},
 	parserOptions: {
 		parser: "babel-eslint",
