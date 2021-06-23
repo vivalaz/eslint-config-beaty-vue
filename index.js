@@ -35,7 +35,8 @@ module.exports = {
 		"multiline-ternary": "error",
 		"no-duplicate-imports": "error",
 		"padding-line-between-statements": "error",
-		"quotes": ["error", "single", { "allowTemplateLiterals": true }]
+		"quotes": ["error", "single", { "allowTemplateLiterals": true }],
+		'vue/comment-directive': "off"
 	},
 	parserOptions: {
 		parser: "babel-eslint",
