@@ -36,7 +36,10 @@ module.exports = {
 		"no-duplicate-imports": "error",
 		"padding-line-between-statements": "error",
 		"quotes": ["error", "single", { "allowTemplateLiterals": true }],
-		'vue/comment-directive': "off"
+		'vue/comment-directive': "off",
+		"space-before-blocks": "error",
+		"space-before-function-paren": "error",
+		"keyword-spacing": "error"
 	},
 	parserOptions: {
 		parser: "babel-eslint",
