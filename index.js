@@ -32,7 +32,6 @@ module.exports = {
         "arrow-body-style": ["error", "as-needed"],
         indent: ["error", "tab"],
         "max-len": "error",
-        "multiline-ternary": "error",
         "no-duplicate-imports": "error",
         "padding-line-between-statements": ["error",
             {blankLine: "always", prev: "*", next: "return"}
