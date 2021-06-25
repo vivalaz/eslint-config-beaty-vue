@@ -20,7 +20,11 @@ module.exports = {
         "default-param-last": "error",
         eqeqeq: "error",
         "no-else-return": "error",
-        "no-magic-numbers": "error",
+        "no-magic-numbers": ["error", {
+            "ignore": [0, 1],
+            "ignoreArrayIndexes": true,
+            "ignoreDefaultValues": true
+        }],
         "no-multi-spaces": "error",
         "no-multi-str": "error",
         "no-return-await": "error",
@@ -31,13 +35,13 @@ module.exports = {
         "implicit-arrow-linebreak": "error",
         "arrow-body-style": ["error", "as-needed"],
         indent: ["error", "tab"],
-        "max-len": "error",
+        "max-len": ["error", 120],
         "no-duplicate-imports": "error",
         "padding-line-between-statements": ["error",
             {blankLine: "always", prev: "*", next: "return"}
         ],
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
-        'vue/comment-directive': "off",
+        "vue/comment-directive": "off",
         "space-before-blocks": "error",
         "space-before-function-paren": "error",
         "keyword-spacing": "error"
@@ -49,5 +53,6 @@ module.exports = {
     globals: {
         $nuxt: true
     },
-    plugins: ["import", "vue", "nuxt"]
+    plugins: ["import", "vue", "nuxt"],
+    ignorePatterns: [".eslintrc.js"]
 };
