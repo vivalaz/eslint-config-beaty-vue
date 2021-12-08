@@ -37,14 +37,23 @@ module.exports = {
         indent: ["error", "tab"],
         "max-len": ["error", 120],
         "no-duplicate-imports": "error",
-        "padding-line-between-statements": ["error",
-            {blankLine: "always", prev: "*", next: "return"}
-        ],
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
         "vue/comment-directive": "off",
         "space-before-blocks": "error",
         "space-before-function-paren": "error",
-        "keyword-spacing": "error"
+        "keyword-spacing": "error",
+        'no-trailing-spaces': "error",
+        "padding-line-between-statements": [
+            'error',
+            { "blankLine": "always", "prev": "import", "next": "*" },
+            { "blankLine": "never", "prev": "import", "next": "import" },
+        ],
+        'no-multiple-empty-lines': [
+            'error',
+            {
+                "max": 3, "maxEOF": 1, "maxBOF": 0
+            },
+        ]
     },
     parserOptions: {
         parser: "babel-eslint",
