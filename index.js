@@ -42,7 +42,7 @@ module.exports = {
         "space-before-blocks": "error",
         "space-before-function-paren": "error",
         "keyword-spacing": "error",
-        'no-trailing-spaces': "error",
+        "no-trailing-spaces": "error",
         "padding-line-between-statements": [
             'error',
             { "blankLine": "always", "prev": "import", "next": "*" },
